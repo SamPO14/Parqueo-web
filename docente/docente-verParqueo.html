@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Utec</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome-free-5.11.2-web/css/all.css">
+    <link rel="stylesheet" href="../assets/css/sidebar.css">
+    <link rel="stylesheet" href="../assets/css/contenido.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class=" mnb navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="ic fa fa-bars"></i>
+                </button>
+                <div style="padding: 15px 0;">
+                    <a href="#" id="msbo"><i class="ic fa fa-bars"></i></a>
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-bell-o"></i></a></li>
+                    <li><a href="#"><i class="fa fa-comment-o"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--msb: main sidebar-->
+    <div class="msb" id="msb">
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <!-- Brand -->
+                    <div class="brand-name-wrapper">
+                        <a class="navbar-brand" href="#">
+                            Manrrique Arita
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Main Menu -->
+            <div class="side-menu-container">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="docente-inicio.html"><i class="fas fa-home"></i>Inicio</a></li>
+                    <li><a href="docente-perfil.html"><i class="fa fa-user"></i>Perfil</a></li>
+                    <li><a href="../login.html"><i class="fa fa-sign-out-alt"></i>Cerrar sesión</a></li>
+                    <!-- Dropdown-->
+                    <!-- <li class="panel panel-default" id="dropdown">
+                        <a data-toggle="collapse" href="#dropdown-lvl1">
+                            <i class="fa fa-diamond"></i> Apps
+                            <span class="caret"></span>
+                        </a>
+
+                        <div id="dropdown-lvl1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">Mail</a></li>
+                                    <li><a href="#">Calendar</a></li>
+                                    <li><a href="#">Ecommerce</a></li>
+                                    <li><a href="#">User</a></li>
+                                    <li><a href="#">Social</a></li>
+
+                                    <li class="panel panel-default" id="dropdown">
+                                        <a data-toggle="collapse" href="#dropdown-lvl2">
+                                            <i class="glyphicon glyphicon-off"></i> Sub Level <span
+                                                class="caret"></span>
+                                        </a>
+                                        <div id="dropdown-lvl2" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul class="nav navbar-nav">
+                                                    <li><a href="#">Link</a></li>
+                                                    <li><a href="#">Link</a></li>
+                                                    <li><a href="#">Link</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li> -->
+                    <!-- <li><a href="#"><span class="glyphicon glyphicon-signal"></span> Link</a></li> -->
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </div>
+    <!--main content wrapper-->
+    <div class="mcw">
+        <!--navigation here-->
+        <!--main content view-->
+        <div class="cv">
+            <div class="contenido3">
+                <div class="contenedorDatos2">
+
+                    <div id="divParqueo1">
+                        <i class="fa fa-building" id='parqueo'></i>
+                    </div>
+
+                    <div id="divParqueo">
+                        <b>Edificio:</b>
+                        <b style='color:red;'>Benito Juarez - Sotano</b>
+                        <b>Espacios disponibles:</b>
+                        0 de 50
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../assets/js/siderbar.js"></script>
+
+</html>

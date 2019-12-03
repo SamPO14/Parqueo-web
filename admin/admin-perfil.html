@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Utec</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome-free-5.11.2-web/css/all.css">
+    <link rel="stylesheet" href="../assets/css/sidebar.css">
+    <link rel="stylesheet" href="../assets/css/contenido.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class=" mnb navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="ic fa fa-bars"></i>
+                </button>
+                <div style="padding: 15px 0;">
+                    <a href="#" id="msbo"><i class="ic fa fa-bars"></i></a>
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-bell-o"></i></a></li>
+                    <li><a href="#"><i class="fa fa-comment-o"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--msb: main sidebar-->
+    <div class="msb" id="msb">
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <!-- Brand -->
+                    <div class="brand-name-wrapper">
+                        <a class="navbar-brand" href="#">
+                            Manrrique Arita
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Main Menu -->
+            <div class="side-menu-container">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="admin-inicio.html"><i class="fas fa-home"></i>Inicio</a></li>
+                    <li class="active"><a href="admin-perfil.html"><i class="fa fa-building"></i>Perfil</a></li>
+                    <li><a href="admin-edificio.html"><i class="fa fa-parking"></i>Nuevo edificio</a></li>
+                    <li><a href="admin-estacionamiento.html"><i class="fas fa-user-shield"></i>Asignar
+                            estacionamiento</a></li>
+                    <li><a href="admin-vigilante.html"><i class="fa fa-save"></i>Asignar vigilante</a></li>
+                    <li><a href="admin-reserva.html"><i class="fas fa-calendar-day"></i>Reservar estacionamiento</a>
+                    </li>
+                    <li><a href="admin-evento.html"><i class="fas fa-users-cog"></i>Crear eventos</a></li>
+                    <li><a href="admin-admin.html"><i class="fa fa-history"></i>Asignar administradores</a></li>
+                    <li><a href="#"><i class="fa fa-users"></i>Historial de estacionamiento</a></li>
+                    <li><a href="#"><i class="fa fa-history"></i>Registros</a></li>
+                    <li><a href="../login.html"><i class="fa fa-users"></i>Cerrar sesion</a></li>
+                    <!-- Dropdown-->
+                    <!-- <li class="panel panel-default" id="dropdown">
+                        <a data-toggle="collapse" href="#dropdown-lvl1">
+                            <i class="fa fa-diamond"></i> Apps
+                            <span class="caret"></span>
+                        </a>
+
+                        <div id="dropdown-lvl1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">Mail</a></li>
+                                    <li><a href="#">Calendar</a></li>
+                                    <li><a href="#">Ecommerce</a></li>
+                                    <li><a href="#">User</a></li>
+                                    <li><a href="#">Social</a></li>
+
+                                    <li class="panel panel-default" id="dropdown">
+                                        <a data-toggle="collapse" href="#dropdown-lvl2">
+                                            <i class="glyphicon glyphicon-off"></i> Sub Level <span
+                                                class="caret"></span>
+                                        </a>
+                                        <div id="dropdown-lvl2" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul class="nav navbar-nav">
+                                                    <li><a href="#">Link</a></li>
+                                                    <li><a href="#">Link</a></li>
+                                                    <li><a href="#">Link</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li> -->
+                    <!-- <li><a href="#"><span class="glyphicon glyphicon-signal"></span> Link</a></li> -->
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </div>
+    <!--main content wrapper-->
+    <div class="mcw">
+        <!--navigation here-->
+        <!--main content view-->
+        <div class="cv">
+            <div class="contenido2">
+
+                <div class="contenedorDatos1">
+                    <b>Nombres:</b>
+                    Fulano de Tal
+                    <br />
+                    <b>Carné:</b>
+                    25-1234-2015
+                    <b>Clave actual:</b>
+                    *******
+                </div>
+
+
+
+                <form class='formPerfil' method='post' action="#">
+                    <center>
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Cambiar clave de acceso</label>
+                            <input style='width: 250px;' type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Contraseña actual">
+                        </div>
+
+                        <div class="form-group">
+
+                            <input style='width: 250px;' type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Nueva contraseña">
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <input style='width: 250px;' type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Confirmar contraseña">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="boton1">Submit</button>
+                    </center>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../assets/js/siderbar.js"></script>
+
+</html>
